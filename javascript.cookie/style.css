@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik:ital@1&display=swap');
+
+
+body {
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.7;
+  color: var(--body);
+
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-4{
+  color: var(--dark);
+  font-weight:700;
+
+}
+
+a{
+
+  text-decoration: none;
+}
+
+.navbar .logo{
+  width: 160px;
+}
+
+
+.navbar .nav-link{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn{
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
+}
+
+
+.background{
+  width:100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 9%, rgba(255,0,0,0.8018557764902836) 40%, rgba(228,228,228,0.6085784655659139) 71%);
+
+
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url(https://a-static.besthdwallpaper.com/demon-slayer-fonovye-oboi-oboi-1920x1080-71406_48.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.player{
+  justify-content: center;
+  text-align: center;
+}
